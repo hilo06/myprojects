@@ -1,10 +1,9 @@
 package cn.itcast.travel.web.servlet;
 
 import cn.itcast.travel.domain.Category;
-import cn.itcast.travel.service.impl.CategoryService;
+import cn.itcast.travel.service.CategoryService;
 import cn.itcast.travel.service.impl.CategoryServiceImpl;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,7 +1,7 @@
 //package cn.itcast.travel.web.servlet;
 //
 //import cn.itcast.travel.domain.User;
-//import cn.itcast.travel.service.impl.UserService;
+//import cn.itcast.travel.service.UserService;
 //import org.apache.commons.beanutils.BeanUtils;
 //
 //import javax.servlet.ServletException;
@@ -60,7 +60,7 @@
 package cn.itcast.travel.web.servlet;
 import cn.itcast.travel.domain.ResultInfo;
 import cn.itcast.travel.domain.User;
-import cn.itcast.travel.service.impl.UserService;
+import cn.itcast.travel.service.UserService;
 import cn.itcast.travel.service.impl.UserServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.beanutils.BeanUtils;

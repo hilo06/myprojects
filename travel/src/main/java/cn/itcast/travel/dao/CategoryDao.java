@@ -1,9 +1,9 @@
-package cn.itcast.travel.service.impl;
+package cn.itcast.travel.dao;
 
 import cn.itcast.travel.domain.Category;
 
 import java.util.List;
 
-public interface CategoryService {
+public interface CategoryDao {
     public List<Category> findAll();
 }
